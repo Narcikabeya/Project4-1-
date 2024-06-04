@@ -1,0 +1,55 @@
+.center-div {
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+    /*
+    border-color: red;
+    border-style: solid;
+    border-width: 2px;
+    */
+    text-align: center;
+}
+
+.title {
+    background-color: #90187d;
+}
+
+.title-chapter {
+    background-color: #0ee6e7;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #c30059;
+}
+
+li {
+    float: center;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+    background-color: #111;
+}
+
+.row {
+    padding: 15px;
+    display: flex;
+}
+
+.column {
+    flex: 50%;
+    text-align: justify;
+    margin-left: 20px;
+}
